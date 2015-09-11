@@ -9,6 +9,7 @@
   "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
   "license": "MIT",
   "devDependencies": {
+    "code": "~1.5.0",
     "lab": "~5.16.0"
   }
 }
