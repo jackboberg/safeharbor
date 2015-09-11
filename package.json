@@ -4,8 +4,10 @@
   "description": "find available port on host machine",
   "main": "index.js",
   "scripts": {
+    "coverage": "lab -r html -o coverage/index.html -r lcov -o coverage/lcov.info",
+    "lint": "standard",
     "test": "lab -c",
-    "coverage": "lab -r html -o coverage/index.html -r lcov -o coverage/lcov.info"
+    "posttest": "npm run lint"
   },
   "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
   "license": "MIT",
