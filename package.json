@@ -11,6 +11,7 @@
   "devDependencies": {
     "code": "~1.5.0",
     "lab": "~5.16.0",
-    "sinon": "~1.16.1"
+    "sinon": "~1.16.1",
+    "standard": "~5.2.2"
   }
 }
