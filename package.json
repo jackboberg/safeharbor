@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lab": "~5.16.0"
+  }
 }
