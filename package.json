@@ -1,0 +1,11 @@
+{
+  "name": "available-port",
+  "version": "0.0.0",
+  "description": "find available port on host machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack Boberg <hello@jackboberg.info> (http://jackboberg.info/)",
+  "license": "MIT"
+}
