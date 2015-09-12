@@ -1,6 +1,12 @@
 # safeharbor
 
-find available port on host machine
+![version](https://img.shields.io/npm/v/safeharbor.svg?style=flat-square)
+![build](https://img.shields.io/travis/jackboberg/safeharbor.svg?style=flat-square)
+![coverage](https://img.shields.io/codeclimate/coverage/github/jackboberg/safeharbor.svg?style=flat-square)
+![code climate](https://img.shields.io/codeclimate/github/jackboberg/safeharbor.svg?style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+
+Find available port on host machine
 
 ## Install
 

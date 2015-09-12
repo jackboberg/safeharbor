@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "stable"
+  - "0.12"
+  - "0.10"
+before_install:
+  - 'npm i npm -g && npm i codeclimate-test-reporter -g'
+after_script:
+  - 'npm run coverage && cat coverage/lcov.info | codeclimate-test-reporter'
+addons:
+  code_climate:
+    repo_token: 6f59b73e6485b73aa230254a4c2412e28463f87c7d35f7e7123862b519787b15
