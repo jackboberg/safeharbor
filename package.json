@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "find available port on host machine",
   "main": "index.js",
+  "engines": {
+    "node": ">0.10.x"
+  },
   "scripts": {
     "coverage": "lab -r html -o coverage/index.html -r lcov -o coverage/lcov.info",
     "lint": "standard",
