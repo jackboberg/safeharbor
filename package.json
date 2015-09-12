@@ -1,6 +1,6 @@
 {
   "name": "safeharbor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "find available port on host machine",
   "main": "index.js",
   "scripts": {
