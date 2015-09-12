@@ -21,3 +21,15 @@ Safeharbor(8080, function (err, port) {
 
 ```
 
+Find first available port in range
+
+```
+const Safeharbor = require('safeharbor')
+
+Safeharbor(8080, 8089, function (err, port) {
+  // port is `8081` if the port is available
+  // `undefined` if no ports availble
+})
+
+```
+
