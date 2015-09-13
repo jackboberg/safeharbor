@@ -1,10 +1,10 @@
 # safeharbor
 
-![version](https://img.shields.io/npm/v/safeharbor.svg?style=flat-square)
-![build](https://img.shields.io/travis/jackboberg/safeharbor.svg?style=flat-square)
-![coverage](https://img.shields.io/codeclimate/coverage/github/jackboberg/safeharbor.svg?style=flat-square)
-![code climate](https://img.shields.io/codeclimate/github/jackboberg/safeharbor.svg?style=flat-square)
-![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+[![version](https://img.shields.io/npm/v/safeharbor.svg?style=flat-square)][version]
+[![build](https://img.shields.io/travis/jackboberg/safeharbor.svg?style=flat-square)][build]
+[![coverage](https://img.shields.io/codeclimate/coverage/github/jackboberg/safeharbor.svg?style=flat-square)][coverage]
+[![code climate](https://img.shields.io/codeclimate/github/jackboberg/safeharbor.svg?style=flat-square)][climate]
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 
 Find available port on host machine
 
@@ -38,4 +38,10 @@ Safeharbor(8080, 8089, function (err, port) {
 })
 
 ```
+
+[version]: https://www.npmjs.com/package/safeharbor
+[build]: https://travis-ci.org/jackboberg/safeharbor
+[coverage]: https://codeclimate.com/github/jackboberg/safeharbor/coverage
+[climate]: https://codeclimate.com/github/jackboberg/safeharbor/code
+[license]: https://raw.githubusercontent.com/jackboberg/safeharbor/master/LICENSE
 
