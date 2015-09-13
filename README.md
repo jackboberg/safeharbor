@@ -16,25 +16,23 @@ npm install safeharbor
 
 ## Usage
 
-Check if port is available
 
 ```
 const Safeharbor = require('safeharbor')
 
-Safeharbor(8080, function (err, port) {
-  // port is `8080` if the port is available
+Safeharbor(function (err, available) {
+  // available is the first available port between 1024 and 9999
+  // or undefined
 })
 
-```
-
-Find first available port in range
-
-```
-const Safeharbor = require('safeharbor')
+Safeharbor(8080, function (err, available) {
+  // available is `8080` if the port is available
+  // or undefined
+})
 
 Safeharbor(8080, 8089, function (err, port) {
-  // port is `8081` if the port is available
-  // `undefined` if no ports available
+  // available is the first available port between 8080 and 8089
+  // or undefined
 })
 
 ```
