@@ -26,13 +26,29 @@ describe('usage', function () {
     done()
   })
 
+  describe('when passed only a callback', function () {
+    beforeEach(function (done) {
+      inRange.yields(null, 8080)
+      done()
+    })
+
+    it('attempts to find a port in the default range', function (done) {
+      Safeharbor(function (err, available) {
+        expect(inRange.calledWith(1024, 9999)).to.be.true()
+        expect(err).to.not.exist()
+        expect(available).to.equal(8080)
+        done()
+      })
+    })
+  })
+
   describe('when passed an available port', function () {
     beforeEach(function (done) {
       available.yields(null, true)
       done()
     })
 
-    it('returns the port', function (done) {
+    it('yields the port', function (done) {
       Safeharbor(8080, function (err, port) {
         expect(err).to.not.exist()
         expect(port).to.equal(8080)
@@ -47,7 +63,7 @@ describe('usage', function () {
       done()
     })
 
-    it('returns nothing', function (done) {
+    it('yields nothing', function (done) {
       Safeharbor(8080, function (err, port) {
         expect(err).to.not.exist()
         expect(port).to.not.exist()
@@ -68,7 +84,7 @@ describe('usage', function () {
         done()
       })
 
-      it('returns the first available port', function (done) {
+      it('yields the first available port', function (done) {
         Safeharbor(8080, 8089, function (err, port) {
           expect(err).to.not.exist()
           expect(port).to.equal(8081)
