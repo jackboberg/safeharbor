@@ -1,5 +1,7 @@
 # safeharbor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jackboberg/safeharbor.svg)](https://greenkeeper.io/)
+
 [![version](https://img.shields.io/npm/v/safeharbor.svg?style=flat-square)][version]
 [![build](https://img.shields.io/travis/jackboberg/safeharbor.svg?style=flat-square)][build]
 [![coverage](https://img.shields.io/codeclimate/coverage/github/jackboberg/safeharbor.svg?style=flat-square)][coverage]
